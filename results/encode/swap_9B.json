@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "model": "9B",
+  "encode": [
+   0,
+   1,
+   2
+  ],
+  "n_test": 200
+ },
+ "swaps": {
+  "value": {
+   "no patch": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "encode": {
+    "success": 0.985,
+    "own": 0.015
+   },
+   "embedding": {
+    "success": 1.0,
+    "own": 0.0
+   },
+   "G1": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G2": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G3": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G4": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G5": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G6": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G7": {
+    "success": 0.0,
+    "own": 1.0
+   }
+  },
+  "key": {
+   "no patch": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "encode": {
+    "success": 0.99,
+    "own": 0.01
+   },
+   "embedding": {
+    "success": 1.0,
+    "own": 0.0
+   },
+   "G1": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G2": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G3": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G4": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G5": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G6": {
+    "success": 0.0,
+    "own": 1.0
+   },
+   "G7": {
+    "success": 0.0,
+    "own": 1.0
+   }
+  }
+ }
+}

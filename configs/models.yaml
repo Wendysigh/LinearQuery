@@ -1,0 +1,53 @@
+# Model tags used on the command line and in result file names.
+#   id          Hugging Face repository (models/<basename> is used instead when it exists)
+#   group_size  linear layers per block before a softmax layer; 0 = all since the previous softmax layer
+#   address     the layers removed in Table 3 and Appendix C (softmax layers in the range stay)
+#   readers     the softmax head tracked for each prompt format, [layer, head]
+#   watch       further softmax heads tracked on chat8
+# All models run in bf16.
+0.8B:
+  id: Qwen/Qwen3.5-0.8B
+  group_size: 3
+  address: 12-14
+  readers: {chat8: [15, 5], list8: [15, 5], rev8: [19, 6]}
+  watch: ["19,6", "23,3"]
+2B:
+  id: Qwen/Qwen3.5-2B
+  group_size: 3
+  address: 12-14
+  readers: {chat8: [15, 5], list8: [15, 5], rev8: [19, 6]}
+  watch: ["19,6", "23,3"]
+4B:
+  id: Qwen/Qwen3.5-4B
+  group_size: 3
+  address: 16-18
+  readers: {chat8: [19, 15], list8: [19, 15], rev8: [19, 15]}
+  watch: ["23,9", "27,1"]
+9B:
+  id: Qwen/Qwen3.5-9B
+  group_size: 3
+  address: 16-18
+  readers: {chat8: [19, 11], list8: [19, 15], rev8: [19, 14]}
+  watch: ["23,12", "27,1"]
+27B:
+  id: Qwen/Qwen3.5-27B
+  group_size: 3
+  address: 32-50
+  readers: {chat8: [51, 20], list8: [51, 20], rev8: [51, 23]}
+  watch: ["39,15", "43,22", "55,22", "59,3"]
+35B:
+  id: Qwen/Qwen3.5-35B-A3B
+  group_size: 3
+  address: 24-34
+  readers: {chat8: [31, 4], list8: [31, 4], rev8: [31, 4]}
+  watch: ["19,4", "27,6", "35,13"]
+G1B:
+  id: ibm-granite/granite-4.0-h-1b
+  group_size: 0
+  address: 16-24
+  readers: {chat8: [25, 1], list8: [25, 1], rev8: [35, 6]}
+G7B:
+  id: ibm-granite/granite-4.0-h-tiny
+  group_size: 0
+  address: 16-34
+  readers: {chat8: [25, 2], list8: [25, 2], rev8: [35, 1]}

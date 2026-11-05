@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "4B",
+    "format": "rev8",
+    "n": 100,
+    "layers": [
+      16,
+      17,
+      18
+    ]
+  },
+  "baseline": {
+    "acc": 1.0,
+    "gap": 22.9625
+  },
+  "removed": {
+    "acc": 0.83,
+    "gap": 9.8125
+  }
+}

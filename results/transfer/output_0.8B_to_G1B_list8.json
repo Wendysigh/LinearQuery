@@ -1,0 +1,349 @@
+{
+ "meta": {
+  "donor": "0.8B",
+  "recv": "G1B",
+  "format": "list8",
+  "donor_query": [
+   12,
+   13,
+   14
+  ],
+  "recv_query": [
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24
+  ],
+  "reader": [
+   25,
+   1
+  ],
+  "donor_blocks": [
+   [
+    0,
+    1,
+    2
+   ],
+   [
+    4,
+    5,
+    6
+   ],
+   [
+    8,
+    9,
+    10
+   ],
+   [
+    12,
+    13,
+    14
+   ],
+   [
+    16,
+    17,
+    18
+   ],
+   [
+    20,
+    21,
+    22
+   ]
+  ],
+  "query_source": "G3",
+  "n_fit": 6000,
+  "n_test": 200,
+  "k_fit": [
+   "radio",
+   "shirt",
+   "singer",
+   "coat",
+   "wheel",
+   "bike",
+   "pig",
+   "storm",
+   "doctor",
+   "drum",
+   "scarf",
+   "desk",
+   "snake",
+   "basket",
+   "spoon",
+   "wine",
+   "fish",
+   "window",
+   "sheep",
+   "sugar",
+   "cat",
+   "rain",
+   "candy",
+   "rice",
+   "cloud",
+   "seal",
+   "truck",
+   "mirror",
+   "juice",
+   "train",
+   "sun",
+   "cherry",
+   "whale",
+   "peach",
+   "grape",
+   "cake",
+   "chain",
+   "shark",
+   "star",
+   "sock",
+   "garlic",
+   "rope",
+   "plate",
+   "banana",
+   "coin",
+   "berry",
+   "almond",
+   "beach",
+   "captain",
+   "bottle",
+   "lemon",
+   "owl",
+   "walnut",
+   "fig",
+   "lion",
+   "paper",
+   "frog",
+   "wagon",
+   "king",
+   "cheese",
+   "ship",
+   "tomato",
+   "desert",
+   "door",
+   "deer",
+   "island",
+   "watch",
+   "book",
+   "table",
+   "sky",
+   "map",
+   "ocean",
+   "potato",
+   "pepper",
+   "snow",
+   "bus",
+   "cup",
+   "dog",
+   "elder",
+   "forest",
+   "car",
+   "lock",
+   "nurse"
+  ],
+  "k_test": [
+   "boat",
+   "guitar",
+   "judge",
+   "chair",
+   "river",
+   "artist",
+   "sofa",
+   "rabbit",
+   "violin",
+   "queen",
+   "bag",
+   "fox",
+   "dancer",
+   "key",
+   "teacher",
+   "pie",
+   "dress",
+   "glove",
+   "camera",
+   "hawk",
+   "onion",
+   "bowl",
+   "knife",
+   "duck",
+   "flag",
+   "plum",
+   "clock",
+   "phone",
+   "coffee",
+   "hat",
+   "brush",
+   "goat",
+   "horse",
+   "hammer",
+   "ring",
+   "mango",
+   "milk",
+   "water",
+   "goose",
+   "planet",
+   "cow",
+   "crow",
+   "beer",
+   "soldier",
+   "honey",
+   "apple",
+   "farmer",
+   "tiger",
+   "date",
+   "ginger",
+   "bell",
+   "cookie",
+   "plane",
+   "box",
+   "lamp",
+   "hill",
+   "writer",
+   "wind",
+   "shoe",
+   "rocket",
+   "valley",
+   "carrot",
+   "wolf",
+   "mountain",
+   "eagle",
+   "tea",
+   "fork",
+   "bear",
+   "nail",
+   "piano",
+   "mouse",
+   "pasta",
+   "bed",
+   "belt",
+   "moon",
+   "bread",
+   "lake",
+   "pilot",
+   "butter",
+   "soup",
+   "pen",
+   "pear",
+   "lawyer",
+   "prince"
+  ]
+ },
+ "conditions": {
+  "host (no transplant)": {
+   "ansA": 0.0,
+   "ansB": 1.0,
+   "dAB": -14.6265625,
+   "attA": 0.0028879157220944762,
+   "attB": 0.8520324540138244
+  },
+  "in-family": {
+   "ansA": 0.97,
+   "ansB": 0.0,
+   "dAB": 9.149375,
+   "attA": 0.8750276219844818,
+   "attB": 0.0023700623214244843
+  },
+  "mean": {
+   "ansA": 0.04,
+   "ansB": 0.43,
+   "dAB": -5.654375,
+   "attA": 0.10549657702445984,
+   "attB": 0.09942489743232727
+  },
+  "xfam": {
+   "ansA": 0.95,
+   "ansB": 0.0,
+   "dAB": 8.80625,
+   "attA": 0.7622043466567994,
+   "attB": 0.005662966035306454
+  },
+  "xfam-self": {
+   "ansA": 0.0,
+   "ansB": 0.985,
+   "dAB": -14.293125,
+   "attA": 0.008835925348103046,
+   "attB": 0.7435047042369842
+  },
+  "xfam-shuffled": {
+   "ansA": 0.04,
+   "ansB": 0.42,
+   "dAB": -5.6725,
+   "attA": 0.10556041598320007,
+   "attB": 0.10018103599548339
+  },
+  "src=G0": {
+   "ansA": 0.345,
+   "ansB": 0.205,
+   "dAB": 0.68625,
+   "attA": 0.26033358871936796,
+   "attB": 0.05815678484737873
+  },
+  "src=G1": {
+   "ansA": 0.72,
+   "ansB": 0.05,
+   "dAB": 5.821875,
+   "attA": 0.4979716420173645,
+   "attB": 0.022595937699079513
+  },
+  "src=G2": {
+   "ansA": 0.92,
+   "ansB": 0.005,
+   "dAB": 8.363125,
+   "attA": 0.7006969833374024,
+   "attB": 0.0070222517102956775
+  },
+  "src=G4": {
+   "ansA": 0.935,
+   "ansB": 0.0,
+   "dAB": 8.65875,
+   "attA": 0.7383224201202393,
+   "attB": 0.0076927880942821505
+  },
+  "src=G5": {
+   "ansA": 0.925,
+   "ansB": 0.0,
+   "dAB": 8.2875,
+   "attA": 0.6943876910209655,
+   "attB": 0.010524634644389153
+  },
+  "src=emb": {
+   "ansA": 0.355,
+   "ansB": 0.25,
+   "dAB": -0.368125,
+   "attA": 0.285587899684906,
+   "attB": 0.0814316463470459
+  }
+ },
+ "r2": {
+  "G0": {
+   "val": 0.6409782733253244,
+   "test": -0.4802409104666878
+  },
+  "G1": {
+   "val": 0.7657728230701859,
+   "test": 0.20541228099331477
+  },
+  "G2": {
+   "val": 0.8393960909992351,
+   "test": 0.5748232309383913
+  },
+  "G3": {
+   "val": 0.8481894693466498,
+   "test": 0.6168650434584053
+  },
+  "G4": {
+   "val": 0.8207592352170342,
+   "test": 0.55812860875813
+  },
+  "G5": {
+   "val": 0.8021583870479891,
+   "test": 0.4958904128081598
+  },
+  "emb": {
+   "val": 0.45184284180843426,
+   "test": 0.2021630795851781
+  }
+ }
+}

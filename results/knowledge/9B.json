@@ -1,0 +1,402 @@
+{
+ "meta": {
+  "model": "9B",
+  "n_layers": 32,
+  "tasks": [
+   "arc_challenge",
+   "arc_easy",
+   "piqa",
+   "winogrande",
+   "openbookqa",
+   "hellaswag"
+  ],
+  "limit": 500,
+  "num_fewshot": 0
+ },
+ "rows": [
+  {
+   "cut": 0,
+   "kept": 1,
+   "acc": {
+    "arc_challenge": 0.208,
+    "arc_easy": 0.244,
+    "piqa": 0.526,
+    "winogrande": 0.472,
+    "openbookqa": 0.162,
+    "hellaswag": 0.262
+   }
+  },
+  {
+   "cut": 1,
+   "kept": 2,
+   "acc": {
+    "arc_challenge": 0.204,
+    "arc_easy": 0.24,
+    "piqa": 0.516,
+    "winogrande": 0.502,
+    "openbookqa": 0.16,
+    "hellaswag": 0.262
+   }
+  },
+  {
+   "cut": 2,
+   "kept": 3,
+   "acc": {
+    "arc_challenge": 0.216,
+    "arc_easy": 0.23,
+    "piqa": 0.524,
+    "winogrande": 0.486,
+    "openbookqa": 0.162,
+    "hellaswag": 0.27
+   }
+  },
+  {
+   "cut": 3,
+   "kept": 4,
+   "acc": {
+    "arc_challenge": 0.202,
+    "arc_easy": 0.236,
+    "piqa": 0.524,
+    "winogrande": 0.48,
+    "openbookqa": 0.16,
+    "hellaswag": 0.27
+   }
+  },
+  {
+   "cut": 4,
+   "kept": 5,
+   "acc": {
+    "arc_challenge": 0.206,
+    "arc_easy": 0.256,
+    "piqa": 0.522,
+    "winogrande": 0.484,
+    "openbookqa": 0.158,
+    "hellaswag": 0.256
+   }
+  },
+  {
+   "cut": 5,
+   "kept": 6,
+   "acc": {
+    "arc_challenge": 0.226,
+    "arc_easy": 0.262,
+    "piqa": 0.528,
+    "winogrande": 0.496,
+    "openbookqa": 0.152,
+    "hellaswag": 0.27
+   }
+  },
+  {
+   "cut": 6,
+   "kept": 7,
+   "acc": {
+    "arc_challenge": 0.242,
+    "arc_easy": 0.27,
+    "piqa": 0.548,
+    "winogrande": 0.504,
+    "openbookqa": 0.166,
+    "hellaswag": 0.268
+   }
+  },
+  {
+   "cut": 7,
+   "kept": 8,
+   "acc": {
+    "arc_challenge": 0.236,
+    "arc_easy": 0.292,
+    "piqa": 0.544,
+    "winogrande": 0.51,
+    "openbookqa": 0.172,
+    "hellaswag": 0.278
+   }
+  },
+  {
+   "cut": 8,
+   "kept": 9,
+   "acc": {
+    "arc_challenge": 0.214,
+    "arc_easy": 0.292,
+    "piqa": 0.546,
+    "winogrande": 0.486,
+    "openbookqa": 0.182,
+    "hellaswag": 0.272
+   }
+  },
+  {
+   "cut": 9,
+   "kept": 10,
+   "acc": {
+    "arc_challenge": 0.222,
+    "arc_easy": 0.31,
+    "piqa": 0.564,
+    "winogrande": 0.51,
+    "openbookqa": 0.18,
+    "hellaswag": 0.268
+   }
+  },
+  {
+   "cut": 10,
+   "kept": 11,
+   "acc": {
+    "arc_challenge": 0.23,
+    "arc_easy": 0.286,
+    "piqa": 0.572,
+    "winogrande": 0.486,
+    "openbookqa": 0.186,
+    "hellaswag": 0.262
+   }
+  },
+  {
+   "cut": 11,
+   "kept": 12,
+   "acc": {
+    "arc_challenge": 0.24,
+    "arc_easy": 0.284,
+    "piqa": 0.562,
+    "winogrande": 0.522,
+    "openbookqa": 0.176,
+    "hellaswag": 0.264
+   }
+  },
+  {
+   "cut": 12,
+   "kept": 13,
+   "acc": {
+    "arc_challenge": 0.254,
+    "arc_easy": 0.304,
+    "piqa": 0.554,
+    "winogrande": 0.54,
+    "openbookqa": 0.182,
+    "hellaswag": 0.264
+   }
+  },
+  {
+   "cut": 13,
+   "kept": 14,
+   "acc": {
+    "arc_challenge": 0.248,
+    "arc_easy": 0.29,
+    "piqa": 0.562,
+    "winogrande": 0.558,
+    "openbookqa": 0.172,
+    "hellaswag": 0.26
+   }
+  },
+  {
+   "cut": 14,
+   "kept": 15,
+   "acc": {
+    "arc_challenge": 0.266,
+    "arc_easy": 0.28,
+    "piqa": 0.562,
+    "winogrande": 0.554,
+    "openbookqa": 0.176,
+    "hellaswag": 0.274
+   }
+  },
+  {
+   "cut": 15,
+   "kept": 16,
+   "acc": {
+    "arc_challenge": 0.262,
+    "arc_easy": 0.298,
+    "piqa": 0.564,
+    "winogrande": 0.562,
+    "openbookqa": 0.182,
+    "hellaswag": 0.268
+   }
+  },
+  {
+   "cut": 16,
+   "kept": 17,
+   "acc": {
+    "arc_challenge": 0.262,
+    "arc_easy": 0.294,
+    "piqa": 0.576,
+    "winogrande": 0.562,
+    "openbookqa": 0.182,
+    "hellaswag": 0.276
+   }
+  },
+  {
+   "cut": 17,
+   "kept": 18,
+   "acc": {
+    "arc_challenge": 0.282,
+    "arc_easy": 0.302,
+    "piqa": 0.592,
+    "winogrande": 0.59,
+    "openbookqa": 0.194,
+    "hellaswag": 0.284
+   }
+  },
+  {
+   "cut": 18,
+   "kept": 19,
+   "acc": {
+    "arc_challenge": 0.294,
+    "arc_easy": 0.382,
+    "piqa": 0.612,
+    "winogrande": 0.616,
+    "openbookqa": 0.212,
+    "hellaswag": 0.28
+   }
+  },
+  {
+   "cut": 19,
+   "kept": 20,
+   "acc": {
+    "arc_challenge": 0.3,
+    "arc_easy": 0.456,
+    "piqa": 0.612,
+    "winogrande": 0.612,
+    "openbookqa": 0.242,
+    "hellaswag": 0.302
+   }
+  },
+  {
+   "cut": 20,
+   "kept": 21,
+   "acc": {
+    "arc_challenge": 0.336,
+    "arc_easy": 0.478,
+    "piqa": 0.622,
+    "winogrande": 0.626,
+    "openbookqa": 0.242,
+    "hellaswag": 0.304
+   }
+  },
+  {
+   "cut": 21,
+   "kept": 22,
+   "acc": {
+    "arc_challenge": 0.352,
+    "arc_easy": 0.504,
+    "piqa": 0.624,
+    "winogrande": 0.622,
+    "openbookqa": 0.254,
+    "hellaswag": 0.31
+   }
+  },
+  {
+   "cut": 22,
+   "kept": 23,
+   "acc": {
+    "arc_challenge": 0.352,
+    "arc_easy": 0.522,
+    "piqa": 0.628,
+    "winogrande": 0.638,
+    "openbookqa": 0.254,
+    "hellaswag": 0.334
+   }
+  },
+  {
+   "cut": 23,
+   "kept": 24,
+   "acc": {
+    "arc_challenge": 0.366,
+    "arc_easy": 0.574,
+    "piqa": 0.656,
+    "winogrande": 0.608,
+    "openbookqa": 0.27,
+    "hellaswag": 0.366
+   }
+  },
+  {
+   "cut": 24,
+   "kept": 25,
+   "acc": {
+    "arc_challenge": 0.376,
+    "arc_easy": 0.566,
+    "piqa": 0.664,
+    "winogrande": 0.596,
+    "openbookqa": 0.306,
+    "hellaswag": 0.362
+   }
+  },
+  {
+   "cut": 25,
+   "kept": 26,
+   "acc": {
+    "arc_challenge": 0.384,
+    "arc_easy": 0.616,
+    "piqa": 0.674,
+    "winogrande": 0.582,
+    "openbookqa": 0.298,
+    "hellaswag": 0.396
+   }
+  },
+  {
+   "cut": 26,
+   "kept": 27,
+   "acc": {
+    "arc_challenge": 0.422,
+    "arc_easy": 0.644,
+    "piqa": 0.674,
+    "winogrande": 0.588,
+    "openbookqa": 0.316,
+    "hellaswag": 0.398
+   }
+  },
+  {
+   "cut": 27,
+   "kept": 28,
+   "acc": {
+    "arc_challenge": 0.436,
+    "arc_easy": 0.638,
+    "piqa": 0.698,
+    "winogrande": 0.614,
+    "openbookqa": 0.306,
+    "hellaswag": 0.416
+   }
+  },
+  {
+   "cut": 28,
+   "kept": 29,
+   "acc": {
+    "arc_challenge": 0.472,
+    "arc_easy": 0.706,
+    "piqa": 0.728,
+    "winogrande": 0.618,
+    "openbookqa": 0.316,
+    "hellaswag": 0.448
+   }
+  },
+  {
+   "cut": 29,
+   "kept": 30,
+   "acc": {
+    "arc_challenge": 0.488,
+    "arc_easy": 0.764,
+    "piqa": 0.77,
+    "winogrande": 0.654,
+    "openbookqa": 0.322,
+    "hellaswag": 0.474
+   }
+  },
+  {
+   "cut": 30,
+   "kept": 31,
+   "acc": {
+    "arc_challenge": 0.524,
+    "arc_easy": 0.8,
+    "piqa": 0.806,
+    "winogrande": 0.682,
+    "openbookqa": 0.316,
+    "hellaswag": 0.524
+   }
+  },
+  {
+   "cut": null,
+   "kept": 32,
+   "acc": {
+    "arc_challenge": 0.52,
+    "arc_easy": 0.8,
+    "piqa": 0.816,
+    "winogrande": 0.742,
+    "openbookqa": 0.326,
+    "hellaswag": 0.564
+   }
+  }
+ ]
+}

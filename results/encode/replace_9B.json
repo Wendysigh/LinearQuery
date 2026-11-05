@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "model": "9B",
+  "encode": [
+   0,
+   1,
+   2
+  ],
+  "n_fit": 1500,
+  "n_text": 200,
+  "n_test": 200,
+  "proj_r2": 0.6576707515710634
+ },
+ "conditions": {
+  "intact": {
+   "acc": 1.0,
+   "ppl": 10.592844009399414
+  },
+  "removed": {
+   "acc": 0.0,
+   "ppl": 60731.765625
+  },
+  "mixers zeroed": {
+   "acc": 0.0,
+   "ppl": 1064.3006591796875
+  },
+  "linear projection": {
+   "acc": 1.0,
+   "ppl": 44.676971435546875
+  }
+ }
+}
